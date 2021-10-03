@@ -1,0 +1,35 @@
+.header-container {
+  background-color: rgba(211, 207, 207, 0.507);
+}
+.key-moto {
+  color: #313091;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.school-name {
+  color: #03689e;
+  padding: 50px;
+  text-align: center;
+}
+.school-name h5 {
+  color: red;
+}
+.school-info {
+  text-align: center;
+}
+
+.scl-img img {
+  height: 160px;
+  width: 200px;
+}
+.bd-flag img {
+  padding-bottom: 20px;
+  height: 200px;
+  width: 200px;
+}
+.scroll {
+  color: green;
+  padding-bottom: 3px;
+  font-weight: bold;
+}
