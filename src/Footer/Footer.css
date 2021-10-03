@@ -1,0 +1,52 @@
+.payment-image img {
+  height: 100px;
+  width: auto;
+}
+.footer-container {
+  background-color: black;
+  padding: 10px;
+}
+.text {
+  color: white;
+}
+.school-address {
+  min-height: 320px;
+  border-radius: 10px;
+  background-color: rgb(129, 125, 125);
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+.school-address:hover {
+  border-radius: 10px;
+  background-color: rgb(230, 224, 224);
+  color: black;
+  text-align: left;
+  padding: 10px;
+}
+.Suggetion {
+  min-height: 320px;
+  border-radius: 10px;
+  background-color: rgb(230, 224, 224);
+  padding: 10px;
+}
+.Suggetion:hover {
+  border-radius: 10px;
+  background-color: rgb(129, 125, 125);
+  padding: 10px;
+}
+.important-link {
+  padding: 10px;
+  min-height: 320px;
+  text-align: left;
+  border-radius: 10px;
+  background-color: rgb(129, 125, 125);
+}
+.important-link:hover {
+  text-align: left;
+  border-radius: 10px;
+  background-color: rgb(230, 224, 224);
+}
+.important-link a {
+  text-decoration: none;
+}
