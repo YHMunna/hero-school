@@ -1,7 +1,5 @@
 import "./Courses.css";
 import React, { useEffect, useState } from "react";
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
 
 const Courses = () => {
   const [courses, setCourses] = useState([]);
@@ -12,7 +10,6 @@ const Courses = () => {
   }, []);
   return (
     <>
-      <Header></Header>
       <h1>Our Exclusive Courses</h1>
       <div>
         <div className="row">
@@ -33,7 +30,6 @@ const Courses = () => {
           ))}
         </div>
       </div>
-      <Footer></Footer>
     </>
   );
 };

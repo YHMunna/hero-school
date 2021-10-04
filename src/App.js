@@ -6,12 +6,15 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import NotFound from "./Components/NotFound/NotFound";
 import Extracurricular from "./Components/Extracurricular/Extracurricular";
-import AcademicService from "./Components/AcademicService/AcademicService";
+
 import Courses from "./Components/Courses/Courses";
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <div className="App">
       <Router>
+        <Header></Header>
         <Switch>
           <Route exact path="/">
             <Home />
@@ -32,6 +35,7 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );

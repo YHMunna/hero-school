@@ -2,13 +2,10 @@ import React from "react";
 import sport from "../Images/extraImage/sport.png";
 import bncc from "../Images/extraImage/bncc.jpg";
 import "./Extracurricular.css";
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
 
 const Extracurricular = () => {
   return (
     <div>
-      <Header></Header>
       <h3>Our Extracurricular</h3>
       <div className="sport">
         <div>
@@ -36,7 +33,6 @@ const Extracurricular = () => {
           <img src={bncc} alt="" />
         </div>
       </div>
-      <Footer></Footer>
     </div>
   );
 };

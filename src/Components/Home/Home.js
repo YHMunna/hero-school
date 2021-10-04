@@ -6,6 +6,7 @@ const Home = () => {
   return (
     <div>
       <AcademicService></AcademicService>
+      <Courses></Courses>
     </div>
   );
 };
