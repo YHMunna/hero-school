@@ -21,8 +21,8 @@ const Header = () => {
             <img src={schoolLogo} alt="" />
           </Col>
           <Col className="school-name col-md-6">
-            <h2>Programming Hero School & College</h2>
-            <h5>School Code: 0101 || College Code: 0202 || EIIN: 0303</h5>
+            <h2>Programming Hero College</h2>
+            <h5>School Code: 0101 || College Code: 0202</h5>
           </Col>
           <Col className="bd-flag col-md-3 ">
             <img src={bdflag} alt="" />

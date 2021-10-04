@@ -2,6 +2,8 @@ import "./AcademicService.css";
 import React, { useEffect, useState } from "react";
 import { Card, Col, Row, Button } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 const AcademicService = () => {
   const [services, setServices] = useState([]);
@@ -14,12 +16,11 @@ const AcademicService = () => {
   return (
     <div>
       <h1>Academic Services</h1>
-
+      <Header></Header>
       <div className="services">
         <div className="row">
           {services.map((service) => (
-            <div className="col-md-6 ">
-              {/* key={service.id} */}
+            <div key={service.id} className="col-md-6 ">
               <div className="card">
                 <div className="service-img">
                   <img src={service.picture} alt="" />
@@ -34,6 +35,7 @@ const AcademicService = () => {
           ))}
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

@@ -11,6 +11,7 @@ const AboutUs = () => {
       <Header></Header>
 
       <div>
+        <h1>About US</h1>
         <div className="about-details">
           <div>
             <img src={academy} alt="" />
