@@ -15,8 +15,8 @@ const AcademicService = () => {
   console.log(services);
   return (
     <div>
-      <h1>Academic Services</h1>
       <Header></Header>
+      <h1>Academic Services</h1>
       <div className="services">
         <div className="row">
           {services.map((service) => (
@@ -35,6 +35,7 @@ const AcademicService = () => {
           ))}
         </div>
       </div>
+
       <Footer></Footer>
     </div>
   );

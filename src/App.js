@@ -7,6 +7,7 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 import NotFound from "./Components/NotFound/NotFound";
 import Extracurricular from "./Components/Extracurricular/Extracurricular";
 import AcademicService from "./Components/AcademicService/AcademicService";
+import Courses from "./Components/Courses/Courses";
 function App() {
   return (
     <div className="App">
@@ -18,8 +19,8 @@ function App() {
           <Route exact path="/home">
             <Home></Home>
           </Route>
-          <Route exact path="/academic">
-            <AcademicService></AcademicService>
+          <Route exact path="/course">
+            <Courses></Courses>
           </Route>
           <Route exact path="/extra">
             <Extracurricular></Extracurricular>

@@ -1,7 +1,6 @@
 import "./Menubar.css";
 import React from "react";
 import { NavLink } from "react-router-dom";
-
 import { Nav } from "react-bootstrap";
 
 const Menubar = () => {
@@ -20,13 +19,13 @@ const Menubar = () => {
         </NavLink>
         <NavLink
           className="nav-link"
-          to="/academic"
+          to="/course"
           activeStyle={{
             fontWeight: "bold",
             color: "red",
           }}
         >
-          Academic Services
+          Courses
         </NavLink>
         <NavLink
           className="nav-link"
