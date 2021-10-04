@@ -2,7 +2,6 @@ import "./Footer.css";
 import React from "react";
 import { Form, Button, Row, Col } from "react-bootstrap";
 import foooterImage from "../Images/footerImage/SSLCOMMERZ.png";
-import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (

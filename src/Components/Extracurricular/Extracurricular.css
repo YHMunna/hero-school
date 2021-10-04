@@ -1,0 +1,11 @@
+.sport,
+.bncc {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.sport img,
+.bncc img {
+  width: 500px;
+  height: 400px;
+}

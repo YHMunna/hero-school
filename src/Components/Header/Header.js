@@ -4,6 +4,8 @@ import schoolLogo from "../Images/headerImage/school-logo.png";
 import bdflag from "../Images/headerImage/bd-flag.png";
 import { Col, Container, Row } from "react-bootstrap";
 import Marquee from "react-fast-marquee";
+import Menubar from "../Menubar/Menubar";
+
 const Header = () => {
   return (
     <div className="header-container">
@@ -32,6 +34,7 @@ const Header = () => {
           </Marquee>
         </div>
       </Container>
+      <Menubar></Menubar>
     </div>
   );
 };
