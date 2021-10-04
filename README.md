@@ -1,6 +1,6 @@
 # Programmin Hero School & College
 
-### Project Link: https://nifty-joliot-faceca.netlify.app/course
+### Project Link: "https://nifty-joliot-faceca.netlify.app/home"
 
 ###### About Project
 
