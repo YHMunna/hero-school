@@ -2,3 +2,7 @@
   text-decoration: none;
   display: flex;
 }
+.menubar {
+  background-color: black;
+  color: white;
+}

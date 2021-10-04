@@ -33,16 +33,16 @@ const Footer = () => {
           <div className="Suggetion">
             <h3>Suggetion/Comments</h3>
             <Form>
-              <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Group className="mb-2" controlId="formBasicEmail">
                 <Form.Control type="text" placeholder="Enter Name" />
               </Form.Group>
-              <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Group className="mb-2" controlId="formBasicEmail">
                 <Form.Control type="email" placeholder="Enter email" />
               </Form.Group>
-              <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Group className="mb-2" controlId="formBasicEmail">
                 <Form.Control type="text" placeholder="Enter Subject" />
               </Form.Group>
-              <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Group className="mb-2" controlId="formBasicEmail">
                 <Form.Control type="text" placeholder="Enter Messege" />
               </Form.Group>
               <Button variant="danger" type="submit">
@@ -62,11 +62,13 @@ const Footer = () => {
         </Col>
       </Row>
 
-      <div className="payment-image p-2">
-        <img src={foooterImage} alt="" />
-      </div>
-      <div className="text">
-        <p> @ All The right deserve Tech PH </p>
+      <div className="payment-banner">
+        <div className="payment-image p-2">
+          <img src={foooterImage} alt="" />
+        </div>
+        <div className="text">
+          <p> @ All The right deserve Tech PH </p>
+        </div>
       </div>
     </div>
   );

@@ -10,11 +10,13 @@ const Courses = () => {
   }, []);
   return (
     <>
-      <h1>Our Exclusive Courses</h1>
+      <h1>
+        <span style={{ color: "tomato" }}>Exclusive</span> Courses
+      </h1>
       <div>
         <div className="row">
           {courses.map((course) => (
-            <div key={course.id} className="col-md-4 ">
+            <div key={course.subID} className="col-md-4 ">
               <div className="course-card my-2 p-2">
                 <div className="course-img">
                   <img src={course.subImage} alt="" />

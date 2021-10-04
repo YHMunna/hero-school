@@ -5,7 +5,7 @@ import { Nav } from "react-bootstrap";
 
 const Menubar = () => {
   return (
-    <div>
+    <div className="menubar">
       <Nav.Link>
         <NavLink
           className="nav-link"

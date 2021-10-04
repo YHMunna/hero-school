@@ -3,14 +3,13 @@
   width: auto;
 }
 .footer-container {
-  background-color: black;
   padding: 10px;
 }
 .text {
   color: white;
 }
 .school-address {
-  min-height: 320px;
+  min-height: 285px;
   border-radius: 10px;
   background-color: rgb(129, 125, 125);
   color: white;
@@ -25,7 +24,7 @@
   padding: 10px;
 }
 .Suggetion {
-  min-height: 320px;
+  min-height: 285px;
   border-radius: 10px;
   background-color: rgb(230, 224, 224);
   padding: 10px;
@@ -37,7 +36,7 @@
 }
 .important-link {
   padding: 10px;
-  min-height: 320px;
+  min-height: 285px;
   text-align: left;
   border-radius: 10px;
   background-color: rgb(129, 125, 125);
@@ -49,4 +48,8 @@
 }
 .important-link a {
   text-decoration: none;
+}
+.payment-banner {
+  margin-top: 5px;
+  background-color: black;
 }

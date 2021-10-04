@@ -11,7 +11,10 @@ const AcademicService = () => {
   console.log(services);
   return (
     <div>
-      <h1>Academic Services</h1>
+      <h1>
+        <span style={{ color: "tomato" }}>Academic</span> Services
+      </h1>
+
       <div className="services">
         <div className="row">
           {services.map((service) => (
